@@ -1,0 +1,162 @@
+body header:nth-child(1){
+    background-color: black;
+    color: white;
+}
+.submenu{
+    background-color: black;
+    border-top: white 2px solid;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+
+body{
+    background-color: black;
+    background-size: cover;
+    width: 100%;
+    height: 520vh;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    font-family: "lapolice";
+    color: white;
+    }
+    
+    section {
+    
+    width: 100%;
+    height: 100vh;	
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    font-family: "lapolice";
+    color: white;
+    }
+    
+    
+    .header{
+    
+    background-image: url(img/11.jpeg);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    
+    main > section{
+        border-top: 5px solid white;
+        height: 100vh;
+    }
+    .aventure {
+    background-image: url(img/lacbaikal.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "lapolice";
+    color: yellow;
+    text-shadow: 0.1em 0.1em #333;
+    padding-left: 20px;
+    padding-right: 20px; 
+    }
+    
+    .achats {
+    background-image: url(img/matro.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "lapolice";
+    color: yellow;
+    text-shadow: 0.1em 0.1em #333;
+    padding-left: 20px;
+    padding-right: 20px; 
+    }
+    
+    .artculture {
+    background-image: url(img/culture.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "lapolice";
+    color: yellow;
+    text-shadow: 0.1em 0.1em #333;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+    
+    .russieenfamille {
+    background-image: url(img/stpet.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "lapolice";
+    color: yellow;
+    text-shadow: 0.1em 0.1em #333;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+    
+    .titre1 {
+    text-align: center;
+    font-family: "lapolice";
+    
+    }
+    
+    nav > ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 50px;
+    margin: 50 50 50 px;
+    }
+    nav > ul a li:hover{
+        background-color: white;
+        color: yellow;
+    }
+    
+    
+    nav > ul li{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    margin: 25px;
+    margin-top: 20px;
+    padding: 15px;
+    list-style: none;
+    }
+    
+    a {
+    text-decoration: none; 
+    color: white;
+    font-family: "lapolice";
+    font-size: 30px;
+    }
+    
+    @font-face {
+    font-family: "lapolice";
+    src: url("../font/Regular.otf");
+    }
+    
+    
+    

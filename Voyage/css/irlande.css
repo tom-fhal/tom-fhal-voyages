@@ -1,0 +1,284 @@
+header{
+    background-color: rgb(40, 114, 40);
+    color: white;
+}
+.submenu{
+    background-color: rgb(40, 114, 40);
+    border-top: #67A7CF 2px solid;
+}
+footer{
+    background-color: rgb(40, 114, 40);
+    color: white;
+}
+
+body {
+    font-family: '1';
+    font-size: 2rem;
+    background: url(../img/fond.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+  }
+  a{
+    text-decoration: none; color: #ffffff;
+  }
+  
+  h1 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+  
+    font-size: 2.5rem;
+    text-shadow: 3px 3px 8px #116302;
+    color: #ffffff;
+    font-family: "2";
+  }
+  
+  main {
+    min-height: 500px;
+    width: 75%;
+    background: rgba(255, 255, 255, 0.349);
+  
+    margin: 0 auto;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0px 0px 20px 4px #6adacd;
+    padding: 15px;
+  }
+  
+  h2 {
+    margin: 0;
+  }
+  
+  .info {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    min-height: 150px;
+  }
+  
+  
+  .info ul {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 4vw;
+    list-style: none;
+  }
+  .info a {
+    text-align : center;
+    padding : 1em;
+    border : 0.5em solid black;
+    width  : 4em;
+    height : 4em;
+    border-radius: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .flip-card {
+      background-color: transparent;
+      perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(540deg);
+  }
+  .flip-card:hover .flip-card-back {
+      position: absolute;
+      top: 0;
+      left: 0;
+  }
+  
+  .flip-card-front, .flip-card-back {
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden;
+  }
+  .flip-card-back {
+      transform: rotateY(180deg);
+      position: absolute;
+      top: 0;
+      left: 0;
+  }
+  .flip-card-back #a{
+    background-image: url(../img/Ireland_regions.png);
+    background-size: cover;
+    color: black;
+  }
+  .flip-card-back #b{
+    background-image: url(../img/titanic.jpg);
+    background-size: cover;
+    color: white;
+  }
+  .flip-card-back #c{
+    background-image: url(../img/temple.jpg);
+    background-size: cover;
+    color: white;
+  }
+  .flip-card-back #d{
+    background-image: url(../img/aer.jpg);
+    background-size: cover;
+    color: black;
+  }
+  
+  
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+  }
+  
+  .grid img {
+    width: 80%;
+    margin: 20px auto;
+    display: block;
+  }
+  
+  .autre {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    min-height: 150px;
+  }
+  .autre ul {
+  
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  .autre li {
+    list-style: none;
+    height: 160px;
+    width: 160px;
+    margin: 10px;
+    background: rgb(0, 0, 0);
+  
+    justify-content: center;
+  }
+  
+  #a:hover {
+    background-image: url(../img/Ireland_regions.png);
+    background-size: cover;
+    color: black;
+  
+  } 
+  
+  #b:hover {
+    background-image: url(../img/titanic.jpg);
+      background-size: cover;
+  
+  }
+  #c:hover {
+    background-image: url(../img/temple.jpg);
+    background-size: cover;
+  }
+  #d:hover {
+    background-image: url(../img/aer.jpg);
+    background-size: cover;
+  }
+  
+  figure {
+    background: #d6d6d6;
+    padding: 25px 60px; 
+  }
+  blockquote {
+    position: relative;
+    font-size: 25px;
+    margin: 0 0 20px;
+  }
+  blockquote p {
+    margin: 0;
+  }
+  blockquote:before {
+    position: absolute;
+    top: 0;
+    left: -45px;
+   font-size: 30px;
+    color: #999;
+  }
+  .logo {
+    height: 50px;
+  
+  
+  }
+  figcaption {
+    position: relative;
+    text-align: right;
+  }
+  figcaption:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #141414;
+  }
+  figcaption span {
+    display: inline-block;
+    position: relative;
+    margin-right: 40px;
+    padding: 0 8px;
+    background: #d6d6d6;
+    z-index: 1;
+  }
+  #irlande {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 100vh;
+    margin-bottom:100vh;
+    min-height: 150px;
+    color: white;
+  text-shadow: 4px 4px 8px #000000;
+  }
+  #activitées {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 100vh;
+    margin-bottom:100vh;
+    min-height: 150px;
+    color: white;
+    text-shadow: 4px 4px 8px #000000;
+  }
+  #incontournables {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 100vh;
+    margin-bottom:100vh;
+    min-height: 150px;
+    color: white;
+    text-shadow: 4px 4px 8px #000000;
+  }
+  #sy-rendre {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 100vh;
+    margin-bottom:100vh;
+    min-height: 150px;
+    color: white;
+    text-shadow: 4px 4px 8px #000000;
+  }
+  @font-face {
+    font-family: "1";
+    src: url(../font/DancingScript-VariableFont_wght.ttf);
+  }
+  @font-face {
+    font-family: "2";
+    src: url(../font/CELTG___.TTF);
+  }
+  

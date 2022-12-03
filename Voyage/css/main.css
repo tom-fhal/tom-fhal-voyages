@@ -1,0 +1,61 @@
+/*Message destiner au correcteur : 
+    J'écris ce message car Theo Tom et moi (Augustin) nous sommes retrouver à travailler avec
+    des camarades (maxens, vincent, mathieu) qui n'ont fait que le strict minimum, vous le verez 
+    par vous-même, et nous aimeriont donc être noter individuellement.
+    PS : il faudrait en parler en vrai, contactez moi quand vous voyez ca
+    Augustin Yvon
+*/
+
+/****************************HEADER************************/
+header{
+    margin: 0;
+    padding: 0;
+    height: 10vh;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 4px 8px rgb(0 0 0/10%), 0px 12px 18px rgb(0 0 0/10%);
+}
+nav{
+    gap: 10vw;
+    display: flex;
+    justify-content: center;
+}
+nav > div{
+    height: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center; 
+}
+
+nav div:hover .submenu{
+    display: inline-block;
+    z-index: 99999 !important;
+}
+.submenu{
+    display: none;
+    position: absolute;
+    top: 10vh;
+}
+.submenu li{
+    padding: 20px;
+}
+.deroulant::after{
+    content: url(../img/flêche_developper_after.png);
+    padding-left: 5px;
+    vertical-align: -18%;
+}
+.deroulant{
+    padding-top: 5px;
+}
+.submenu ul{
+    list-style: none;
+    padding: 0;
+}
+/****************************FOOTER************************/
+footer{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
