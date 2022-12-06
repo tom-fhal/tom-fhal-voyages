@@ -1,0 +1,61 @@
+@font-face {
+	src: url('../font/Awesome_South_Korea.ttf') format('truetype');
+	font-family: "korean";
+}
+
+body {
+	font-family: 'korean' ;
+	background-image: url('../img/southkorea.jpg');
+	background-size: 50%;
+	background-position-y: 13vh;
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+	padding: 0;
+}
+header{
+    background-color: black;
+	color: white;
+}
+.submenu{
+    background-color: black;
+    border-top: #f10040 2px solid;
+}
+.div1 {
+	margin-left: 3vh; 
+	margin-top: 5vh; 
+	width:73%;
+}
+.div2{
+	text-align: center;
+	margin-left: 157vh; 
+	margin-top: -75vh; 
+	width: 23%; 
+	height: 544px; 
+	background-color: rgba(255,255,255,0.9);
+}
+.div3 {
+	text-align:center; 
+	margin-left: 3vh; 
+	margin-top: -2vh; 
+	width: 48%; 
+	height: 102vh; 
+	background-color: rgba(255,255,255,0.9);
+}
+.img1 {
+	margin-top: 0vh;
+	margin-left: 0vh;
+	width: 100%;
+}
+.img2 {
+	position: absolute; 
+	left: 105vh; 
+	top:672px; 
+	height: 102vh
+}
+footer{
+	color: white;
+	background-color: black;
+}
